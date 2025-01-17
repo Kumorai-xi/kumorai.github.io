@@ -1,0 +1,55 @@
+/* Introduction */
+.my_work {
+    position: relative;
+    top: 42px;
+    z-index: 4;
+    width: 200px;
+    right: 150px;
+    margin: auto;
+}
+
+.my_work .top {
+    background-position: 0px -32px;
+    width: 536px;
+    height: 22px;
+    background-image: url(https://static.tumblr.com/fpdiq1j/SbBm5x8aj/master_sprite.png);
+}
+
+.my_work .middle {
+    background: url(https://static.tumblr.com/fpdiq1j/nZUm40uql/window_middle_smaller.png) repeat-y;
+    max-width: 500px;
+    width: 536px;
+    padding: 4px 26px 4px 10px;
+}
+
+.my_work .middle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.my_work .bottom {
+    background-image: url(https://static.tumblr.com/fpdiq1j/SbBm5x8aj/master_sprite.png);
+    float: none;
+    clear: both;
+    background-position: 0px -54px;
+    width: 536px;
+    height: 22px;
+    margin-bottom: 20px;
+}
+
+.my_work .bottom a {
+    margin-left: 20px;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.my_work .bottom p {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.blank_space {
+    height: 100px;
+}

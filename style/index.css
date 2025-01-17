@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222222 url(../media/background.jpg) repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    font: normal 13px/1.3 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+/* Applications */
+.icons {
+    position: fixed;
+    top: 68px;
+    left: 3%;
+}
+
+.icons .snoopy {
+    height: 90px;
+    width: 90px;
+    background-image: url(../media/home_icon.png);
+    background-size: cover;
+    margin: auto;
+    transform: scale(1.5);
+}
+
+.icons .profile {
+    height: 90px;
+    width: 90px;
+    background-image: url(../media/about_icon.png);
+    background-size: cover;
+    margin: auto;
+    transform: scale(1.5);
+}
+
+.icons .computer {
+    height: 90px;
+    width: 90px;
+    background-image: url(../media/projects_icon.png);
+    background-size: cover;
+    margin: auto;
+    transform: scale(1.5);
+}
+
+.icons .file {
+    height: 90px;
+    width: 90px;
+    background-image: url(../media/drawings_icon.png);
+    background-size: cover;
+    margin: auto;
+    transform: scale(1.5);
+}
+
+.icons .label {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* Start Bar */
+.start_bar {
+    position: fixed;
+    background-color: rgb(192,192,192);
+    bottom: 0;
+    height: 28px;
+    width: 100%;
+    z-index: 999999;
+}
+
+.start_bar .top_border {
+    border-bottom: 1px solid rgb(255,255,255);
+    border-top: 1px solid rgb(223,223,223);
+}
+
+/* Start Bar Start Button */
+.start_bar .start_button {
+    float: left;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    height: 18px;
+    width: 54px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.start_bar .start_button .logo {
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.start_bar .start_button .logo {
+    width: 16px;
+    height: 14px;
+    background-image: url(../media/logo_icon.png);
+    background-size: cover;
+}
+
+.start_bar .start_button .text {
+    float: right;
+    display: inline;
+    margin-right: 4px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+/* Start Bar Icons */
+.start_bar .application_icons {
+    float: left;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.start_bar .small_seperator {
+    float: left;
+    border-left: 1px solid rgb(255,255,255);
+    border-top: 1px solid rgb(255,255,255);
+    border-right: 1px solid rgb(128,128,128);
+    border-bottom: 1px solid rgb(128,128,128);
+    background-color: rgb(192,192,192);
+    width: 1px;
+    height: 16px;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.start_bar .big_seperator {
+    float: left;
+    border-left: 1px solid rgb(128,128,128);
+    border-right: 1px solid rgb(255,255,255);
+    height: 22px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.application_icons {
+    height: 16px;
+    width: 84px;
+    background-image: url(../media/applIcons.png);
+    background-size: cover;
+}
+
+/* Start Bar Calendar */
+.start_bar .tray {
+    float: right;
+    border-top: 1px solid rgb(128,128,128);
+    border-left: 1px solid rgb(128,128,128);
+    border-bottom: 1px solid rgb(255,255,255);
+    border-right: 1px solid rgb(255,255,255);
+    height: 18px;
+    width: 79px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.start_bar .tray .calendar {
+    float: left;
+    margin-left: 3px;
+}
+
+.start_bar .tray .calendar {
+    height: 16px;
+    width: 16px;
+    background-image: url(../media/calendar_icon.png);
+    background-size: cover;
+    transform: scale(1.5);
+}
+
+.start_bar .tray .time {
+    line-height: 18px;
+    float: right;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+/* Introduction */
+.window {
+    position: relative;
+    top: 100px;
+    left: 50%;
+    z-index: 4;
+    width: 255px;
+}
+
+.window .top {
+    background-position: 0px -32px;
+    width: 536px;
+    height: 22px;
+    background-image: url(https://static.tumblr.com/fpdiq1j/SbBm5x8aj/master_sprite.png);
+}
+
+.window .middle {
+    background: url(https://static.tumblr.com/fpdiq1j/nZUm40uql/window_middle_smaller.png) repeat-y;
+    max-width: 500px;
+    width: 536px;
+    padding: 4px 26px 4px 10px;
+}
+
+.window .middle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.window .bottom {
+    background-image: url(https://static.tumblr.com/fpdiq1j/SbBm5x8aj/master_sprite.png);
+    float: none;
+    clear: both;
+    background-position: 0px -54px;
+    width: 536px;
+    height: 22px;
+    margin-bottom: 20px;
+}
+
+.window .bottom a {
+    margin-left: 20px;
+    font-size: 11px;
+    line-height: 16px;
+}
